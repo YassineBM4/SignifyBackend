@@ -23,7 +23,7 @@ export class AuthController {
     constructor(
         private authService: AuthService
     ) {
-        this.stripe = new Stripe('sk_test_51QcRZmDQ71d8FZXBwmjYCMBIZxPVH0NY3jRo8MqnkkHHeTQMdzCWQwaNlKR7Qhiqd8e9QOyIMbEblDu6WPagj1zo00xdaFOmzu', { apiVersion: '2024-12-18.acacia' });
+        this.stripe = new Stripe('API-KEY', { apiVersion: '2024-12-18.acacia' });
     }
 
     // User Section
